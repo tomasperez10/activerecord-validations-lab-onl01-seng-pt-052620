@@ -1,3 +1,7 @@
+
+
+
+
 class Post < ActiveRecord::Base
   validates :title, presence: true, clickbait: true
   validates :content, length: { minimum: 250 }
